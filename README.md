@@ -1,35 +1,42 @@
-# Sistema de Gestión de Pedidos de Comida Local - Cusco
+# Sistema Web de Pedidos de Comida - Cusco
 
-> **Startup Cusco Food Tech** — Plataforma web para la gestión, pedido y distribución de gastronomía típica cusqueña.
+Proyecto inicial para la startup cusqueña de gestión y distribución de comida tradicional local, desarrollado como parte de la práctica de control de versiones con Git y GitHub.
 
 ---
 
-## 1. Descripción del Proyecto
-Este proyecto surge de la necesidad de una startup en la ciudad del Cusco de digitalizar y optimizar el proceso de pedidos de comida local (platos tradicionales y contemporáneos), conectando a restaurantes y picanterías tradicionales con comensales locales y turistas.
+## 1. Descripción
+Este proyecto sienta las bases del sistema web de pedidos para conectar picanterías y restaurantes de comida típica del Cusco con los clientes. El objetivo de esta primera entrega es establecer el control de versiones desde el inicio del proyecto siguiendo buenas prácticas de desarrollo de software.
 
-## 2. Características Principales
-* **Catálogo de Gastronomía Tradicional:** Presentación de platos típicos (Chiri Uchu, Lechón Cusqueño, Cuy Chactado, Kapchi de Setas).
-* **Gestión de Carrito y Pedidos:** Selección de productos y cálculo automático de montos.
-* **Control de Entregas Locales:** Ubicación y despacho en los principales distritos del Cusco (Cercado, Wanchaq, San Sebastián, San Jerónimo, Santiago).
+## 2. Platos considerados en la plataforma
+* **Chiri Uchu:** Plato bandera del Cusco (cuy, gallina, cecina, queso, cochayuyo, torreja de maíz).
+* **Lechón Cusqueño:** Horneado tradicional con tamal y moraya.
+* **Kapchi de Setas:** Setas andinas con habas, queso y papas nativas.
+* **Cuy Chactado:** Servido con papas doradas y ensalada.
 
-## 3. Estructura del Proyecto
+## 3. Estructura del Repositorio
 ```text
 pedidos-comida-cusco/
-└── README.md         # Documentación inicial del proyecto
+└── README.md    # Documentación técnica inicial del proyecto
 ```
 
-## 4. Requisitos y Clonación
-Para clonar el repositorio:
+## 4. Control de Versiones aplicado
+El proyecto se gestiona con Git:
+* **Rama principal:** `main`
+* **Flujo inicial:**
+  1. Configuración de credenciales de usuario.
+  2. Inicialización local con `git init`.
+  3. Registro y control de cambios mediante commits atómicos.
+  4. Sincronización remota con GitHub.
+
+## 5. Clonación del Repositorio
+Para obtener una copia local del proyecto:
 ```bash
 git clone https://github.com/milith0kun/pedidos-comida-cusco.git
 ```
 
-## 5. Control de Versiones
-El proyecto sigue el flujo de trabajo de Git:
-* Rama principal: `main`
-* Mensajes de commit descriptivos y organizados.
-
 ---
-**Autor:** Edmil Jampier Saire Bustamante  
-**Institución:** Universidad Nacional de San Antonio Abad del Cusco (UNSAAC)  
-**Contacto:** 174449@unsaac.edu.pe
+**Desarrollador:** Edmil Jampier Saire Bustamante  
+**Código:** 174449  
+**Correo:** 174449@unsaac.edu.pe  
+**Universidad Nacional de San Antonio Abad del Cusco (UNSAAC)**  
+*Ingeniería de Software - 2026*
